@@ -1,0 +1,52 @@
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 16px;
+}
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+    width: 33.33333%;
+    margin-top: 16px;
+}
+.clear{
+    clear: both;
+}
+.place-list{
+    margin-top: 16px;
+}
+
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-body{
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading{
+    font-size: 15px;
+}
+
+.place-time{    
+    margin-top: 15px;
+    color: #757575;
+}
+.place-desc{
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+
+.img-fluid.img-thumbnail:hover {
+    background: aqua;
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+}
+.img-thumbnail {
+    opacity: 0.5;
+    transition: all 1s;
+}
